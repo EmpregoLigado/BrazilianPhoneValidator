@@ -28,8 +28,6 @@ class FixDataset
         {
             foreach ($this->dataset[$areaCode] as $prefix => $range)
             {
-                //echo $prefix . PHP_EOL;
-                //echo $prefix . "<br>";
                 if (strlen($prefix) == 4) {
                     $newPrefix = "9" . $prefix;
                     $this->dataset[$areaCode][$newPrefix] = $range;
@@ -71,6 +69,6 @@ TEMPLATE;
     }
 }
 
-$array = array(12, 13, 14, 15, 16, 17, 18, 19);
-$fixDataset = new FixDataset("data");
+$array = array(21, 22, 24, 27, 28);
+$fixDataset = new FixDataset("../data");
 $fixDataset->fix($array);
