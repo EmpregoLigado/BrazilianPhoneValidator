@@ -69,6 +69,10 @@ TEMPLATE;
     }
 }
 
-$array = array(21, 22, 24, 27, 28);
+$array = array(
+    11,
+    12, 13, 14, 15, 16, 17, 18, 19,
+    21, 22, 24, 27, 28
+);
 $fixDataset = new FixDataset("../data");
 $fixDataset->fix($array);
