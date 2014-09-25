@@ -19,6 +19,12 @@
         </testsuite>
     </testsuites>
 
+    <testsuites>
+        <testsuite name="acceptance">
+            <directory>tests/acceptance</directory>
+        </testsuite>
+    </testsuites>
+
     <filter>
         <whitelist>
             <directory>./src/EmpregoLigado/BrazilianPhoneValidator/</directory>
