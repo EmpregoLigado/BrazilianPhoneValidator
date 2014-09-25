@@ -1,14 +1,11 @@
 {
     "sme": [
-        "FAIXA_SME_20140913_0964_GERAL.txt"
+        "FAIXA_SME_20140920_0967_GERAL.txt"
     ],
     "smp": [
-        "FAIXA_SMP_20140913_0374_GERAL.txt",
-        "FAIXA_SMP_20140916_17_INCREMENTAL.txt"
+        "FAIXA_SMP_20140920_0375_GERAL.txt"
     ],
     "stfc": [
-        "FAIXA_STFC_20140913_1716_GERAL.txt",
-        "FAIXA_STFC_20140917_18_INCREMENTAL.txt",
-        "FAIXA_STFC_20140918_18_INCREMENTAL.txt"
+        "FAIXA_STFC_20140920_1722_GERAL.txt"
     ]
 }

@@ -13,9 +13,15 @@
 >
     <testsuites>
         <!-- We want the tests to be run in this order. -->
-        <testsuite name="BrazilianPhoneValidator test suite">
-            <file>tests/EmpregoLigado/BrazilianPhoneValidator/ValidatorTest.php</file>
-            <file>tests/EmpregoLigado/BrazilianPhoneValidator/ValidatorLazyLoadingTest.php</file>
+        <testsuite name="BrazilianPhoneValidator unitary Test Suite">
+            <file>tests/unit/EmpregoLigado/BrazilianPhoneValidator/ValidatorTest.php</file>
+            <file>tests/unit/EmpregoLigado/BrazilianPhoneValidator/ValidatorLazyLoadingTest.php</file>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name="acceptance">
+            <directory>tests/acceptance</directory>
         </testsuite>
     </testsuites>
 
