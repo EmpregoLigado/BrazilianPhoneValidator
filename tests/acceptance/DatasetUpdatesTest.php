@@ -25,7 +25,8 @@ class DatasetUpdatesTest extends \PHPUnit_Framework_TestCase
     public static function provideValidNumbers()
     {
         return array(
-            array('(11) 99129-6854')
+            array('(11) 99129-2344'),
+            array('(11) 93013-6165')
         );
     }
 }
