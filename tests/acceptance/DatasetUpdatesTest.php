@@ -27,6 +27,7 @@ class DatasetUpdatesTest extends \PHPUnit_Framework_TestCase
         return array(
             array('(11) 99129-2344'),
             array('(11) 93013-6165'),
+            array('(11) 94567-9158'),
             array('(96) 9129-2344'), // AP
             array('(96) 9129-2344'), // AP
             array('(92) 9129-2344'), // AM
